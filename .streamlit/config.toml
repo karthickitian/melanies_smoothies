@@ -1,0 +1,9 @@
+connections.snowflake
+account="ZXCKKOS.XN06563"
+user="karthick.m1@mrcooper.com"
+password="Nilan565260%"
+role="SYSADMIN"
+warehouse="COMPUTE_WH"
+database="SMOOTHIES"
+schema="PUBLIC"
+client_session_keep_alive=true
