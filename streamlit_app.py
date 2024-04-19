@@ -21,9 +21,9 @@ st.write(
 name_on_order=st.text_input('Name on Smoothie:')
 st.write('The name on your smoothie will be:',name_on_order);
 
-@st.cache_resource(show_spinner=False)
-def get_session():
-    session = Session.builder.configs(st.secrets.["snowflake"]).create()
+#@st.cache_resource(show_spinner=False)
+#def get_session():
+   # session = Session.builder.configs(st.secrets.["snowflake"]).create()
 
  #cnx=st.connection("snowflake")
    # session=cnx.session
