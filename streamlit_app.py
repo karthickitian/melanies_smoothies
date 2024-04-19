@@ -1,6 +1,6 @@
 # Import python packages
 import requests
-import panda
+import pandas
 import streamlit as st
 conn = st.connection("snowflake")
 session=conn.session()
