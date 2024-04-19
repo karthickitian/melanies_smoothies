@@ -1,6 +1,7 @@
 # Import python packages
 import streamlit as st
 conn = st.connection("snowflake")
+session=conn.session()
 #from snowflake.snowpark.context import get_active_session
 from snowflake.snowpark.functions import col
 conn = st.connection("snowflake")
